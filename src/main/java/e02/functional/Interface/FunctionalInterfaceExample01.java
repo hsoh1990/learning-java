@@ -5,7 +5,7 @@ import com.sun.tools.corba.se.idl.InterfaceGen;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-public class FunctionalInterfaceExample {
+public class FunctionalInterfaceExample01 {
     public static void main(String[] args) {
         final Function<String, Integer> toInt = value -> Integer.parseInt(value);
         final Integer number = toInt.apply("100");
