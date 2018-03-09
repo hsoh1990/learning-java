@@ -7,6 +7,8 @@ import java.util.function.Predicate;
 
 public class FunctionalInterfaceExample02 {
     public static void main(String[] args) {
+        System.out.println("Functional Interface predicate");
+
         Predicate<Integer> isPositive = i -> i > 0;
         System.out.println(isPositive.test(1));
         System.out.println(isPositive.test(0));
@@ -15,7 +17,7 @@ public class FunctionalInterfaceExample02 {
         List<Integer> numbers = Arrays.asList(-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5);
 
         System.out.println("positive -> " + filter(numbers, i -> i > 0));
-        System.out.println("less than 3.. -> "  +filter(numbers, i -> i < 3));
+        System.out.println("less than 3 -> "  +filter(numbers, i -> i < 3));
 
     }
 
