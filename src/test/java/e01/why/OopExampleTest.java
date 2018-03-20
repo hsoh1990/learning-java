@@ -3,7 +3,7 @@ package e01.why;
 import org.junit.Test;
 import static org.assertj.core.api.Assertions.*;
 
-public class OopExampleTest {
+public class  OopExampleTest {
 
     @Test
     public void add() {
