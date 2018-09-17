@@ -1,4 +1,4 @@
-package e02.functional.Interface;
+package e02.Interface;
 
 public class FunctionalInterfaceExample04 {
     public static void main(String[] args) {

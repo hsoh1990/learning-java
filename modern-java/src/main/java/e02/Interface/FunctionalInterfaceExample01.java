@@ -1,6 +1,4 @@
-package e02.functional.Interface;
-
-import com.sun.tools.corba.se.idl.InterfaceGen;
+package e02.Interface;
 
 import java.util.function.Consumer;
 import java.util.function.Function;

@@ -2,9 +2,7 @@ package e03.stream.api;
 
 import java.util.stream.Stream;
 
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
-import static java.util.stream.Collectors.toSet;
+import static java.util.stream.Collectors.*;
 
 public class StreamApiExample03 {
     public static void main(String[] args) {

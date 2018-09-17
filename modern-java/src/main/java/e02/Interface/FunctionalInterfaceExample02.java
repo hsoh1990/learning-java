@@ -1,4 +1,4 @@
-package e02.functional.Interface;
+package e02.Interface;
 
 import java.util.ArrayList;
 import java.util.Arrays;
